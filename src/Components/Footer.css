@@ -1,0 +1,27 @@
+.footer {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.footer p {
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width:500px) {
+    .footer {
+        justify-content: space-between;
+    }
+
+    .footer p {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .footer h1 {
+        font-size: 25px;
+    }
+}

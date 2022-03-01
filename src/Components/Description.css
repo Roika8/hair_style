@@ -1,0 +1,37 @@
+.description {
+    padding-top: 100px;
+    animation: slideInFromBottom 2s ease-in;
+
+}
+
+.description-heading {
+    max-width: 500px;
+    margin: auto
+}
+
+.grid.grid-3.text-center.my-4 .image {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+}
+
+@media (max-width:800px) {
+    .grid.grid-3.text-center.my-4 .image {
+        width: 200px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .grid.grid-3.text-center.my-4 .image {
+        width: 300px;
+        height: 250px;
+    }
+
+}
+
+
+
